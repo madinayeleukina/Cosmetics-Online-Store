@@ -1,0 +1,35 @@
+table {
+	border-collapse: collapse;
+	text-align: left;
+	font-size: 18px;
+	width: 1200px;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 23px;
+}
+
+th {
+	position: sticky;
+	font-size: 25px;
+}
+
+tr {
+	border-top: 1px solid #C1C1C1;
+}
+
+td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.item-image {
+	margin: 5px;
+}
+
+.deleteBtn{
+	border-radius: 50%;
+	transform: rotate(45deg);
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+}

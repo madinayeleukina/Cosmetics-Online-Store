@@ -1,0 +1,33 @@
+.itemsList {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 25px;
+}
+.itemsList-item, .itemsList-item-add {
+  	display: flex;
+ 	flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 300px);
+  	padding: 15px;
+}
+
+ul {
+	list-style-type: none;
+	padding-top: 10;
+	padding-bottom: 10;
+}
+ul li {
+	display: inline-block;
+	border-right: black;
+}
+.page-title{
+	font-size: 40px;
+	padding-top: 15px;
+	padding-left: 40px;
+}
+
+.itemsList-item-title {
+	font-size: 23px;
+}

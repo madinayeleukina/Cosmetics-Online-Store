@@ -1,0 +1,41 @@
+section {
+	width: 800px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.image {
+	/*background-color: blue;*/
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.details {
+	/*background-color: green;*/
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.description {
+	/*background-color: red;*/
+	padding: 10px;
+	/*text-align: center;*/
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer {
+	/*background-color: white;*/
+	padding: 10px;
+	text-align: center;
+}
